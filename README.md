@@ -24,13 +24,15 @@
 ## Overview
 
 SustainWell is a community-centric platform designed to facilitate the monitoring, management, and sustainability of vital water resources.
-With an intuitive interface and robust analytics, SustainWell bridges the gap between technology and community-led resource management, ensuring that every community has the tools it needs to maintain and improve its water infrastructure.
+With an intuitive interface and robust analytics, SustainWell bridges the gap between technology and community-led resource management,
+ensuring that every community has the tools it needs to maintain and improve its water infrastructure.
 
 ---
 
 ## Inspiration & Background
 
-SustainWell draws inspiration from a comprehensive Master's project focused on monitoring and evaluation and sustainability of county government-funded borehole water projects in Kaloleni Sub County, Kilifi County, Kenya. This research highlighted the challenges and opportunities in managing shared water resources at the community level and fueled the vision for a scalable, technology-driven solution that can empower communities and build long-term resilience.
+SustainWell draws inspiration from a comprehensive Master's project focused on monitoring and evaluation and sustainability of county government-funded borehole water projects in Kaloleni Sub County, Kilifi County, Kenya.
+This research highlighted the challenges and opportunities in managing shared water resources at the community level and fueled the vision for a scalable, technology-driven solution that can empower communities and build long-term resilience.
 
 ---
 
@@ -69,18 +71,18 @@ Follow the instructions below to set up the project locally for development and 
 
 1. **Clone the Repository:**
 
-   ```bash
-   git clone https://github.com/yourusername/sustainwell.git
-   cd sustainwell/SustainWell-backend
-   ```
+```bash
+git clone https://github.com/yourusername/sustainwell.git
+cd sustainwell/SustainWell-backend
+```
 
 2. **Create a Virtual Environment and Install Dependencies:**
 
-   ```bash
-   python -m venv env
-   source env/bin/activate  # For Windows: env\Scripts\activate
-   pip install -r requirements.txt
-   ```
+```bash
+python -m venv env
+source env/bin/activate  # For Windows: env\Scripts\activate
+pip install -r requirements.txt
+```
 
 3. **Apply Migrations and Run the Server:**
 
