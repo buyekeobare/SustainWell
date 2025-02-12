@@ -85,14 +85,13 @@ Follow the instructions below to set up the project locally for development and 
 
 3. **Apply Migrations and Run the Server:**
 
-````bash
+```bash
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
+```
 
-The backend API will be accessible at http://127.0.0.1:8000/.
-
----
+## The backend API will be accessible at http://127.0.0.1:8000/.
 
 ### Frontend Setup (React)
 
@@ -100,7 +99,7 @@ The backend API will be accessible at http://127.0.0.1:8000/.
 
 ```bash
 cd ../frontend
-````
+```
 
 2. **Install Dependencies:**
 
