@@ -92,22 +92,27 @@ python manage.py runserver
 
 The backend API will be accessible at http://127.0.0.1:8000/.
 
+---
+
 ### Frontend Setup (React)
 
 1. **Navigate to the Frontend Directory:**
 
 ```bash
 cd ../frontend
+````
 
 2. **Install Dependencies:**
 
 ```bash
 npm install
+```
 
 3. **Run the React Development Server:**
 
 ```bash
 npm start
+```
 
 The frontend will run at http://localhost:3000/.
 
@@ -115,6 +120,8 @@ The frontend will run at http://localhost:3000/.
 
 Ensure the API base URL in your React app (e.g., in src/services/api.js) is set to
 http://127.0.0.1:8000/api/ during development.
+
+---
 
 ## Usage
 
@@ -124,6 +131,8 @@ Once both the backend and frontend servers are running, you can:
 - Manage Data: Add or update resource information and submit maintenance requests.
 - Analyze Trends: Utilize the dashboard to view reports and insights that drive sustainable decisions.
 - Engage Community Leaders: Empower local administrators and stakeholders with accessible data and management tools.-
+
+---
 
 ## Contributing
 
@@ -135,12 +144,13 @@ Contributions are welcome! To contribute:
 
 ```bash
 git checkout -b feature/your-feature-name
+```
 
 3. Commit your changes:
 
 ```bash
 git commit -m "Add feature or fix bug"
-````
+```
 
 4. Push to your branch:
 
@@ -150,20 +160,26 @@ git push origin feature/your-feature-name
 
 5. Open a pull request describing your changes
 
+---
+
 ## License
 
 This project is licensed under the Apache License. See the LICENSE file for details.
+
+---
 
 ## Contact
 
 For any questions or suggestions, please reach out via email at [buyekeobare@gmail.com].
 
-## Acknowledgements
+---
 
-This project is inspired by my Master's thesis, "Monitoring and Evaluation Practices and Sustainability of County Government Funded Borehole Water Projects in Kaloleni Sub-County, Kilifi County."
+## Acknowledgements
 
 - Special thanks to the communities in Kaloleni Sub-County, Kilifi County, whose resilience and collaboration have inspired this project.
 - I am deeply grateful to my academic mentors and colleagues for their invaluable guidance throughout my research.
 - Finally, I appreciate all the open-source contributors and tools that made this project possible.
+
+---
 
 Thank you for exploring SustainWell. Together, we can build a sustainable future for communities around the world!
