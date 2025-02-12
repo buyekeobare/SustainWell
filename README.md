@@ -164,7 +164,7 @@ git push origin feature/your-feature-name
 
 ## License
 
-This project is licensed under the Apache License. See the LICENSE file for details.
+SustainWell is licensed under the Apache License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
