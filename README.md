@@ -73,7 +73,7 @@ Follow the instructions below to set up the project locally for development and 
 
 ```bash
 git clone https://github.com/yourusername/sustainwell.git
-cd sustainwell/SustainWell-backend
+cd sustainWell/SustainWell-backend
 ```
 
 2. **Create a Virtual Environment and Install Dependencies:**
@@ -99,7 +99,8 @@ The backend API will be accessible at http://127.0.0.1:8000/.
 1. **Navigate to the Frontend Directory:**
 
 ```bash
-cd ../frontend
+
+cd sustainWell/SustainWell-frontend
 ```
 
 2. **Install Dependencies:**
