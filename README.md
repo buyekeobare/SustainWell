@@ -23,7 +23,8 @@
 
 ## Overview
 
-SustainWell is a community-centric platform designed to facilitate the monitoring, management, and sustainability of vital water resources. With an intuitive interface and robust analytics, SustainWell bridges the gap between technology and community-led resource management, ensuring that every community has the tools it needs to maintain and improve its water infrastructure.
+SustainWell is a community-centric platform designed to facilitate the monitoring, management, and sustainability of vital water resources.
+With an intuitive interface and robust analytics, SustainWell bridges the gap between technology and community-led resource management, ensuring that every community has the tools it needs to maintain and improve its water infrastructure.
 
 ---
 
@@ -71,7 +72,6 @@ Follow the instructions below to set up the project locally for development and 
    ```bash
    git clone https://github.com/yourusername/sustainwell.git
    cd sustainwell/SustainWell-backend
-
    ```
 
 2. **Create a Virtual Environment and Install Dependencies:**
@@ -80,7 +80,6 @@ Follow the instructions below to set up the project locally for development and 
    python -m venv env
    source env/bin/activate  # For Windows: env\Scripts\activate
    pip install -r requirements.txt
-
    ```
 
 3. **Apply Migrations and Run the Server:**
@@ -91,7 +90,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-## The backend API will be accessible at http://127.0.0.1:8000/.
+The backend API will be accessible at http://127.0.0.1:8000/.
 
 ### Frontend Setup (React)
 
